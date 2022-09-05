@@ -1,0 +1,2 @@
+genome	coverage	abundance	hits_per_million
+gb|HM990671|+|5192-6671|ARO:3003112|lsaC	6.4192021636240595	1.0	376000.0

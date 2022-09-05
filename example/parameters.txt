@@ -1,0 +1,2 @@
+abundancedir	out_abundance
+sampleslist	samples_list.txt

@@ -1,0 +1,2 @@
+Prefix plugins/CombineAbundance/example/
+Plugin CombineAbundance inputfile parameters.txt outputfile combined.csv
