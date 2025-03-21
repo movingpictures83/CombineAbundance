@@ -35,7 +35,7 @@ class CombineAbundancePlugin:
   for sample in samples_list:
     # Read abundance file
 
-    f = os.path.join(amr_abundance_dir,sample+"-abundance.txt")
+    f = os.path.join(amr_abundance_dir,sample+"_all.txt")
     if os.path.exists(f):
         with open(f, 'r') as re:
             re.readline()
@@ -54,7 +54,7 @@ class CombineAbundancePlugin:
   for sample in samples_list:
     # Read abundance file
     amr_dict["sample"].append(sample)
-    f = os.path.join(amr_abundance_dir,sample+"-abundance.txt")
+    f = os.path.join(amr_abundance_dir,sample+"_all.txt")
     if os.path.exists(f):
         genes_found = []
         with open(f, 'r') as re:
